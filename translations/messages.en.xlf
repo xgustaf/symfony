@@ -80,6 +80,10 @@
                 <source>title.post_list</source>
                 <target>Post List</target>
             </trans-unit>
+            <trans-unit id="title.todo_list">
+                <source>title.todo_list</source>
+                <target>Todos</target>
+            </trans-unit>
             <trans-unit id="title.edit_post">
                 <source>title.edit_post</source>
                 <target>Edit post #%id%</target>
@@ -141,9 +145,17 @@
                 <source>action.create_post</source>
                 <target>Create a new post</target>
             </trans-unit>
+            <trans-unit id="action.create_todo">
+                <source>action.create_todo</source>
+                <target>Create a new todo</target>
+            </trans-unit>
             <trans-unit id="label.create_post">
                 <source>label.create_post</source>
                 <target>Create post</target>
+            </trans-unit>
+            <trans-unit id="label.create_todo">
+                <source>label.create_todo</source>
+                <target>Create todo</target>
             </trans-unit>
             <trans-unit id="label.save_and_create_new">
                 <source>label.save_and_create_new</source>
@@ -152,6 +164,10 @@
             <trans-unit id="action.back_to_list">
                 <source>action.back_to_list</source>
                 <target>Back to the post list</target>
+            </trans-unit>
+            <trans-unit id="action.back_to_todo_list">
+                <source>action.back_to_todo_list</source>
+                <target>Back to the todos list</target>
             </trans-unit>
             <trans-unit id="action.publish_comment">
                 <source>action.publish_comment</source>
@@ -214,10 +230,25 @@
                 <source>label.actions</source>
                 <target>Actions</target>
             </trans-unit>
+            <trans-unit id="label.todo_status">
+                <source>label.todo_status</source>
+                <target>Done</target>
+            </trans-unit>
+            <trans-unit id="label.answer_yes">
+                <source>label.answer_yes</source>
+                <target>Yes</target>
+            </trans-unit>
+
             <trans-unit id="title.post_new">
                 <source>title.post_new</source>
                 <target>Post creation</target>
             </trans-unit>
+
+            <trans-unit id="title.todo_new">
+                <source>title.todo_new</source>
+                <target>Todo creation</target>
+            </trans-unit>
+
             <trans-unit id="action.edit_contents">
                 <source>action.edit_contents</source>
                 <target>Edit contents</target>
@@ -234,6 +265,10 @@
             <trans-unit id="menu.post_list">
                 <source>menu.post_list</source>
                 <target>Post list</target>
+            </trans-unit>
+            <trans-unit id="menu.todo_list">
+                <source>menu.todo_list</source>
+                <target>Todos list</target>
             </trans-unit>
             <trans-unit id="menu.back_to_blog">
                 <source>menu.back_to_blog</source>
@@ -300,6 +335,20 @@
                 <source>post.search_no_results</source>
                 <target>No results found</target>
             </trans-unit>
+
+            <trans-unit id="todo.created_successfully">
+                <source>todo.created_successfully</source>
+                <target>Todo created successfully!</target>
+            </trans-unit>
+            <trans-unit id="todo.updated_successfully">
+                <source>todo.updated_successfully</source>
+                <target>Todo updated successfully!</target>
+            </trans-unit>
+            <trans-unit id="todo.no_todos_found">
+                <source>todo.no_todos_found</source>
+                <target>No todos found.</target>
+            </trans-unit>
+
 
             <trans-unit id="notification.comment_created">
                 <source>notification.comment_created</source>
